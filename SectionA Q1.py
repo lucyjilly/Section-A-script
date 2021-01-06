@@ -2,7 +2,7 @@
 """
 Created on Tue Jan  5 05:53:47 2021
 
-@author: LUCY
+@author: lafree
 """
 #Count all unique four letter words in the file. 
 words = set()
