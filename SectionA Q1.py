@@ -15,7 +15,7 @@ Created on Tue Jan  5 05:53:47 2021
     #creating an empty set 
 words = set()
     #using with statement    
-with open ("C:\\Users\\LUCY\\Downloads\\words (1).txt", 'r') as word_stimuli:
+with open ("C:\words.txt", 'r') as word_stimuli::
     for line in word_stimuli:        
      #using a dictionary to define key areas to be adhered to:         
        unique_4Lwords = {word for word in line.lower().split() if len(word)==4 and "'" not in word}
