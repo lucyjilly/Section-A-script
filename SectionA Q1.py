@@ -15,7 +15,7 @@ Created on Tue Jan  5 05:53:47 2021
     #creating an empty set 
 words = set()
     #using with statement    
-with open ("C:\words.txt", 'r') as word_stimuli::
+with open ("C:\words.txt", 'r') as word_stimuli:
     for line in word_stimuli:        
      #using a dictionary to define key areas to be adhered to:
           #ignoring case of word by changing all words to lower case
