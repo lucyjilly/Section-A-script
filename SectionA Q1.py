@@ -17,7 +17,9 @@ words = set()
     #using with statement    
 with open ("C:\words.txt", 'r') as word_stimuli::
     for line in word_stimuli:        
-     #using a dictionary to define key areas to be adhered to:         
+     #using a dictionary to define key areas to be adhered to:
+          #ignoring case of word by changing all words to lower case
+          #finding words with 4 characters using len function
        unique_4Lwords = {word for word in line.lower().split() if len(word)==4 and "'" not in word}
        words.update(unique_4Lwords)
     unique_word_stimuli = (len(words)) 
